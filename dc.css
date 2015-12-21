@@ -324,3 +324,9 @@ g.dc-legend-item.fadeout {
     pointer-events: all;
     cursor: pointer;
 }
+
+/* row chart within chart = paired row */
+.dc-chart .dc-chart .titlerow {
+    pointer-events: none;
+    opacity: 0;
+}
